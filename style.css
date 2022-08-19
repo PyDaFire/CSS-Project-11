@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+nav{
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    margin: auto;
+}
+
+.logo img{
+    width: 5rem;
+}
+
+.navbar-items{
+    display: flex;
+    list-style-type: none;
+    width: 50vw;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    color: darkgray;
+}
+
+.nav-btn{
+    background: transparent;
+    border: 2px solid #66C5FF;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    color: #66C5FF;
+}
+
+/* -------------------------hero------------------ */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: auto;
+    align-items: center;
+}
+
+.hero .left{
+    width: 90vw;
+    margin-top: 7%;
+    font-family: 'Monsterrat',sans-serif;
+}
+
+h1.hero-heading {
+    font-size: 2.3rem;
+    
+}
+p.hero-para{
+    font-size: .8rem;
+    color: darkgray;
+    margin: 20px 0;
+}
+
+.btn{
+    color: #ffffff;
+    background: linear-gradient(#6CB4EE,#007af5); 
+    border: none;
+    width: 150px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 12px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.hero .right{
+    width: 30vw;
+    margin-top: 7%;
+    
+}
+
+.hero .right .hero-img img{
+    width: 90%;
+    margin-left: 80px;
+}
+
+.benefit{
+    display: flex;
+    align-items: center;
+    margin: 20% auto;
+    width: 80vw;
+    
+}
+
+.benefit .left img{
+    width: 35vw;
+    margin-right: 20px;
+}
+
+.benefit .right{
+    line-height: 1.2;
+}
+
+.promotion{
+    display: flex;
+    align-items: center;
+    margin: 20% auto;
+    width: 80vw;
+}
+
+.services{
+    display: flex;
+    align-items: center;
+    margin: 10% auto;
+    width: 80vw;
+}
+.services .hero-heading{
+    width: 90vw;  
+}
+
+.service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.service .card{
+    flex-basis: 250px;
+    flex-shrink: 0;
+    padding: 2%;
+}
+
+.pack-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pack-card{
+    flex-basis: 260px;
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 5% 10px;
+    border-radius: 10px;
+}
+
+.offer ul{
+    list-style-type: none;
+}
+
+.packages{
+    background: linear-gradient(#2290eb,#0064c9); 
+    width: 100vw;
+    margin-left: 0;
+}
+
+.packages .pack-heading{
+    text-align: center;
+    color: #ffffff;
+    padding-top: 5%;
+    font-weight: 500;
+}
+.pack-card:nth-child(2){
+    padding: 0;
+}
+
+.pack-card .offer ul{
+    margin-top: 30%;
+    margin-bottom: 20%;
+}
+
+.pack-card .offer{
+    margin-top: 10%;
+}
+
+.offer .offer-item{
+    margin-bottom: 15px;
+    font-size: .8rem;
+}
+
+.offer .offer-item i{
+    margin-right: 5px;
+}
+
+.offer .price,.cancel{
+    text-align: center;
+    
+    font-weight: 500;
+}
+.offer .price span{
+    color: rgb(100, 100, 100);
+}
+
+.offer .cancel{
+    color: rgb(100, 100, 100);
+    font-size: .7rem;
+    
+    margin-bottom: 10%;
+}
+.offer .btn{
+    margin-left: 17%;
+}
+
+.bg-black{
+    background-color: rgba(58, 58, 58, 0.992);
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 20px 20px 1px 20px;
+}
+
+
+.pack-card:nth-child(2) .offer{
+    margin-top: -10%;
+    padding-left: 20px;
+}
+
+.pack-card:nth-child(2) .offer ul{
+    margin-bottom: 42px;
+}
+
+.pack-card:nth-child(2) .offer .price{
+    margin-right: 10px;
+    /* background-color: #007af5; */
+    text-align: center;
+
+}
+.pack-card h2{
+    font-size: 1.3rem;
+
+}
+
+.btn-2{
+        background: transparent;
+        width: 150px;
+        padding: 10px 15px;
+        border: 2px solid #66C5FF;
+        padding: .5rem 1rem;
+        border-radius: 10px;
+        color: #66C5FF;
+        margin-left: 15%;
+}
+
+/* --------------------------testimonial ------------ */
+
+.testimonial{
+    text-align: center;
+    width: 80vw;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.reviews{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.review{
+    flex-basis: 400px;
+    /* background-color: #f7f7f7; */
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-top: 3%;
+}
+
+p.para-review{
+    font-size: .7rem;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.reviewer{
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+span.profile{
+    width: 4vw;
+    height: 8vh;
+    background-color: grey;
+    border-radius: 50%;
+    margin-right: 10px;
+    
+}
+.name{
+    font-size: .8rem;
+}
+
+.name span{
+    color: gray;
+    font-size: .7rem;
+}
+
+.testimonial .hero-para{
+    width: 60vw;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* ------------------------tag---------------- */
+.tag{
+    background-color: #007af5;
+    width: 100vw;
+    height: 50vh;
+    color: #ffffff;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tag .left{
+    width: 40%;
+}
+
+.tag-para{
+    font-size: .8rem;
+    margin-top: 20px;
+}
+.right{
+    margin-right: 5%;
+}
+
+.right .btn-2{
+    color: #ffffff;
+    border: 1px solid #fff;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* -------------------------footer----------------- */
+footer{
+    display:flex;
+    width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+footer .logo{
+    width: 20vw;
+}
+
+footer .footer-head{
+    font-size: 1.3rem;
+}
+
+footer ul{
+    list-style: none;
+    font-size: .7rem;
+    color: darkgray;
+}
+
+footer .footer-link{
+    margin-top: 15px;
+}
+
+footer .icon{
+    display: inline;
+}
+
+footer .icon i{
+    font-size: 1.5rem;
+    margin-right: 5px;
+    margin-top: 15px;
+}
+
+/* --------------------media queries------------------- */
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 1024px) {  
+    .navbar-items{
+        width: 66vw;
+    }
+
+    p.hero-para{
+        padding-left: 15px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .navbar-items{
+        font-size: .7rem;
+    }
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .nav-item {
+        display: none;
+      }
+
+      h1.hero-heading {
+        font-size: 2rem;
+      }
+      p.hero-para {
+        padding-left: 0;
+      }
+
+      .hero .right .hero-img img {
+        width: 173%;
+        margin-left: 10%;
+      }
+
+      .promotion{
+        flex-direction: column-reverse;
+        text-align: center;
+      }
+      
+      .services{
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .tag{
+        flex-direction: column;
+        align-items: flex-start;
+        
+      }
+      .tag .hero-head{
+        width: 75vw;
+        text-align: center;
+        margin: auto;
+        padding-right: 5%;
+      }
+      .tag .left {
+        width: 100%;
+        text-align: center;
+      }
+      .tag .right{
+        width: 90%;
+        margin: auto 100px;
+      }
+
+      footer .footer-head {
+        font-size: 1rem;
+      }
+
+      footer p.hero-para{
+        font-size: .6rem;
+        margin-right: 10px;
+        text-align: justify;
+      }
+
+      footer ul {
+        font-size: 0.5rem;
+      }
+
+      footer .icon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      footer .icon i{
+        font-size: 1rem;
+      }
+
+
+}
+
+
+@media (max-width: 480px) {  
+    .hero{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: center;
+        margin:auto;
+    }
+
+    .hero .right {
+        width: 80vw;
+        margin: auto;
+      }
+    .hero .right .hero-img img {
+      width: 90%;
+    }
+
+    .hero .left{
+
+    }
+
+    .benefit{
+        flex-direction: column;
+    }
+    .benefit .left img {
+        width: 60vw;
+        margin-right: 0px;
+      }
+
+      .pack-card:nth-child(2) {
+        padding: 0 0 20px 0;
+      }
+}
+
+
+
+
+
+
+
+
+
+
